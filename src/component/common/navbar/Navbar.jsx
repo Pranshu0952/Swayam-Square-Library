@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 //  <nav className="bg-black text-white">
 //       <ul className="flex gap-6 p-4">
@@ -43,7 +44,7 @@ const Navbar = () => {
                     <a href="/gallery" className='text-gray-100 px-4 text-xl'>Gallery</a>
                     <a href="/facilities" className='text-gray-100 px-4 text-xl'>Facilities</a>
                     <a href="/location" className='text-gray-100 px-4 text-xl'>Location</a>                </div>
-                <button onClick={()=> setIsOpen(!isOpem)} className='block md:hidden '>Open</button>
+                <button onClick={()=> setIsOpen(!isOpem)} className='block md:hidden '><FaBars /></button>
             </div>
                
 
