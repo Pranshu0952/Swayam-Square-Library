@@ -1,0 +1,35 @@
+@config "../tailwind.config.js";
+@import "tailwindcss";
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes slideLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slideLeft {
+  animation: slideLeft 1s ease forwards;
+}
+
+.animate-slideRight {
+  animation: slideRight 1s ease forwards;
+}
