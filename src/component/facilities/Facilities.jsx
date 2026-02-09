@@ -46,19 +46,18 @@ const facilitiesData = [
 
 const Facilities = () => {
   return (
-    <section className="bg-slate-50 py-16 px-6 md:px-16">
+    <section className="bg-slate-50 py-16 px-6 md:px-16" data-aos="fade-up">
       {/* Title */}
       <h2 className="text-center text-4xl font-bold text-blue-900 mb-12">
         Our Facilities
       </h2>
 
       {/* Grid */}
-      <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-4" >
         {facilitiesData.map((item, index) => (
           <div
             key={index}
-            className="bg-blue-100 rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center"
-          >
+            className="bg-blue-100 rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center" data-aos="flip-left" >
             <div className="text-blue-600 mb-4 flex justify-center">
               {item.icon}
             </div>

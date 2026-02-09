@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg from "/bg.png";
+import Regitation from '../common/rigestation/LibraryRegister'
 
 const Hero = () => {
   return (

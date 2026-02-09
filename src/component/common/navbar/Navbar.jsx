@@ -6,24 +6,6 @@ import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 
-//  <nav className="bg-black text-white">
-//       <ul className="flex gap-6 p-4">
-//         {menuData.map((item, index) => (
-//           <div key={index} className="relative group">
-//             <div className="cursor-pointer">{item.title}</div>
-
-//             {item.children && (
-//               <ul className="absolute hidden group-hover:block bg-white text-black mt-2 min-w-[150px] shadow-md">
-//                 {item.children.map((child, i) => (
-//                   <DropdownItem key={i} item={child} />
-//                 ))}
-//               </ul>
-//             )}
-//           </div>
-//         ))}
-//       </ul>
-//     </nav>
-
 const Navbar = () => {
     const [isOpem , setIsOpen] = useState(false);
 
@@ -40,7 +22,7 @@ const Navbar = () => {
                 <div className='px-4  hidden md:block '>
                     <a href="/" className='text-gray-100 px-4 text-xl'>Home</a>
                     <a href="/about" className='text-gray-100 px-4 text-xl'>About</a>
-                    <a href="/contect" className='text-gray-100 px-4 text-xl'>Contect</a>
+                    <a href="/contact" className='text-gray-100 px-4 text-xl'>Contact</a>
                     <a href="/gallery" className='text-gray-100 px-4 text-xl'>Gallery</a>
                     <a href="/facilities" className='text-gray-100 px-4 text-xl'>Facilities</a>
                     <a href="/location" className='text-gray-100 px-4 text-xl'>Location</a>                </div>
@@ -48,11 +30,13 @@ const Navbar = () => {
             </div>
                
 
+            
+
             {/* mobil buton */}
                 <div className={ `${isOpem?"block":"hidden"} py-4 sm:hidden  bg-blue-300 space-y-2 pb-3`} >
                 <a href="/" className='text-gray-100 px-4 text-xl block'>Home</a>
                 <a href="/about" className='text-gray-100 px-4 text-xl block'>About</a>
-                <a href="/contect" className='text-gray-100 px-4 text-xl block'>Contect</a>
+                <a href="/contact" className='text-gray-100 px-4 text-xl block'>Contect</a>
                 <a href="/gallery" className='text-gray-100 px-4 text-xl block'>Gallery</a>
                 <a href="/facilities" className='text-gray-100 px-4 text-xl block'>Facilities</a>
                 <a href="/location" className='text-gray-100 px-4 text-xl block'>Location</a>

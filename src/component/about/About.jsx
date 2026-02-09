@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-gradient-to-b from-slate-50 to-white py-16 px-6 md:px-16">
+    <section className="bg-gradient-to-b from-slate-50 to-white py-16 px-6 md:px-16" data-aos="fade-up">
       
       {/* Title */}
       <h2 className="text-center text-4xl font-bold text-blue-900 mb-12">
@@ -10,7 +10,7 @@ const About = () => {
       </h2>
 
       {/* Card Container */}
-      <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10" data-aos="fade-right">
 
         {/* Left Content */}
         <div className="md:w-1/2">
@@ -33,7 +33,7 @@ const About = () => {
         </div>
 
         {/* Right Image */}
-        <div className="md:w-1/2">
+        <div className="md:w-1/2" data-aos="fade-left">
           <img
             src={"./bg.png"}
             alt="Library Study Environment"
