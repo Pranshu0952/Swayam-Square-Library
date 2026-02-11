@@ -25,13 +25,13 @@ const LibraryRegister = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-900 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
         <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">
           Library Registration
         </h2>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4"  data-aos="fade-up">
           {/* Name */}
           <input
             type="text"
