@@ -17,7 +17,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 px-6 max-w-3xl animate-fadeIn">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        <h1 className=" md:text-6xl  mb-6 leading-tight bg-gradient-to-r from-cyan-500 to-pink-500 bg-clip-text text-transparent font-extrabold inline-block text-5xl">
           Best Study Environment in Sitapur
         </h1>
 

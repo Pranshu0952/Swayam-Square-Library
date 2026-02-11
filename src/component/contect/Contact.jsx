@@ -85,9 +85,9 @@ const LibraryRegister = () => {
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="">Select Membership</option>
-            <option value="student">Student</option>
-            <option value="general">General</option>
-            <option value="premium">Premium</option>
+            <option value="student">Full Day</option>
+            <option value="general">Morning Batch </option>
+            <option value="premium">Evening Batch </option>
           </select>
 
           {/* Button */}

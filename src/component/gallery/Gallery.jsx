@@ -10,7 +10,7 @@ const images = [img1, img2, img3, img4, img5, img6];
 
 const Gallery = () => {
   return (
-    <section className="bg-white py-16 px-6 md:px-16">
+    <section className="bg-white py-16 px-6 md:px-16" >
       {/* Title */}
       <h2 className="text-center text-4xl font-bold text-blue-900 mb-12">
         Photo Gallery
@@ -27,6 +27,7 @@ const Gallery = () => {
               src={img}
               alt="Library"
               className="w-full h-64 object-cover transform transition duration-500 group-hover:scale-110 group-hover:brightness-90"
+              data-aos="fade-up"
             />
           </div>
         ))}
